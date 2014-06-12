@@ -120,9 +120,15 @@ Within the template the following variables are available:
 
 _defaults to:_
 ```html
-<article class="trustfeed-entry"><h3>{{title}}</h3><div class="stars stars-{{stars}}"></div><p class="content">{{content}}{{more}}</p><p class="author">{{name}}</p></article>
+<article class="trustfeed-entry">
+  <h3>{{title}}</h3>
+  <div class="stars stars-{{stars}}"></div>
+  <p class="content">{{content}}{{more}}</p>
+  <p class="author">{{name}}</p>
+</article>
 ```
 
+__Important__: the template can not contain newlines! 
 
 
 
