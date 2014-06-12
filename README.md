@@ -102,7 +102,7 @@ The template for every review:
 ```javascript
 Trustfeed.load({
   clientId: 1234567
-, template: '<article class="trustfeed-entry"><h3>{{title}}</h3><div class="stars stars-{{stars}}"></div><p class="content">{{content}}{{more}}</p><p class="author">{{name}}</p></article><p class="date">{{date}}</p>'
+, template: '<article class="trustfeed-entry"><h3>{{title}}</h3><div class="stars tf-stars-{{stars}} tf-stars-{{starSize}}"></div><p class="content">{{content}}{{more}}</p><p class="author">{{name}}</p></article><p class="date">{{date}}</p>'
 })
 ```
 
@@ -122,7 +122,7 @@ _defaults to:_
 ```html
 <article class="trustfeed-entry">
   <h3>{{title}}</h3>
-  <div class="stars stars-{{stars}}"></div>
+  <div class="stars tf-stars-{{stars}} tf-stars-{{starSize}}"></div>
   <p class="content">{{content}}{{more}}</p>
   <p class="author">{{name}}</p>
 </article>

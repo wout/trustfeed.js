@@ -1,0 +1,21 @@
+.tf-stars-small { width: 64px; height: 12px; }
+.tf-stars-small.tf-stars-0 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/s/0.png); }
+.tf-stars-small.tf-stars-1 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/s/1.png); }
+.tf-stars-small.tf-stars-2 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/s/2.png); }
+.tf-stars-small.tf-stars-3 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/s/3.png); }
+.tf-stars-small.tf-stars-4 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/s/4.png); }
+.tf-stars-small.tf-stars-5 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/s/5.png); }
+.tf-stars-medium { width: 85px; height: 16px; }
+.tf-stars-medium.tf-stars-0 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/m/0.png); }
+.tf-stars-medium.tf-stars-1 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/m/1.png); }
+.tf-stars-medium.tf-stars-2 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/m/2.png); }
+.tf-stars-medium.tf-stars-3 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/m/3.png); }
+.tf-stars-medium.tf-stars-4 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/m/4.png); }
+.tf-stars-medium.tf-stars-5 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/m/5.png); }
+.tf-stars-large { width: 113px; height: 21px; }
+.tf-stars-large.tf-stars-0 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/l/0.png); }
+.tf-stars-large.tf-stars-1 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/l/1.png); }
+.tf-stars-large.tf-stars-2 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/l/2.png); }
+.tf-stars-large.tf-stars-3 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/l/3.png); }
+.tf-stars-large.tf-stars-4 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/l/4.png); }
+.tf-stars-large.tf-stars-5 { background-image: url(https://s3-eu-west-1.amazonaws.com/s.trustpilot.com/images/tpelements/stars/l/5.png); }

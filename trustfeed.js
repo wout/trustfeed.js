@@ -8,7 +8,7 @@ var Trustfeed = this.Trustfeed = {
     // Define default settings
     this.settings = {
       class:         'trustfeed'
-    , template:      '<article class="trustfeed-entry"><h3>{{title}}</h3><div class="stars stars-{{stars}}"></div><p class="content">{{content}}{{more}}</p><p class="author">{{name}}</p></article>'
+    , template:      '<article class="trustfeed-entry"><h3>{{title}}</h3><div class="stars tf-stars-{{stars}} tf-stars-{{starSize}}"></div><p class="content">{{content}}{{more}}</p><p class="author">{{name}}</p></article>'
     , readMore:      '<a href="{{url}}" target="_blank">Read more</a>'
     , starSize:      'medium'
     , maxCharacters: 145
@@ -83,6 +83,7 @@ var Trustfeed = this.Trustfeed = {
     , name:     review.User.Name
     , date:     review.Created.HumanDate
     , datetime: review.Created.Human
+    , starSize: this.settings.starSize
     }
   }
   // Interpoate string
