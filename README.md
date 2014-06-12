@@ -110,7 +110,7 @@ Within the template the following variables are available:
 - title (review title)
 - content (review content)
 - url (link to the review)
-- more (the `redMore` template)
+- more (the `readMore` template)
 - score (review score)
 - stars (number of stars)
 - image (review stars image)
