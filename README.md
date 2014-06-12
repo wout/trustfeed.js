@@ -74,8 +74,13 @@ Template for the read more link:
 ```javascript
 Trustfeed.load({
   clientId: 1234567
-, readMore: '<a href="{{url}}" target="_blank">Read more</a>'
+, readMore: '<a href="{{url}}">Give me more!</a>'
 })
+```
+
+_defaults to:_
+```html
+<a href="{{url}}" target="_blank">Read more</a>
 ```
 
 ### starSize
@@ -113,7 +118,11 @@ Within the template the following variables are available:
 - date (date of the review)
 - datetime (date and time of the review)
 
-_defaults to: '<article class="trustfeed-entry"><h3>{{title}}</h3><div class="stars stars-{{stars}}"></div><p class="content">{{content}}{{more}}</p><p class="author">{{name}}</p></article>'_
+_defaults to:_
+```html
+<article class="trustfeed-entry"><h3>{{title}}</h3><div class="stars stars-{{stars}}"></div><p class="content">{{content}}{{more}}</p><p class="author">{{name}}</p></article>
+```
+
 
 
 
