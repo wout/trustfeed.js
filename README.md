@@ -58,7 +58,7 @@ Trustfeed.load({
 })
 ```
 
-- _defaults to: 10_
+- _defaults to: `10`_
 - _absolute maximum: `10`_
 
 
@@ -98,7 +98,7 @@ Trustfeed.load({
 })
 ```
 
-- _defaults to:_
+_defaults to:_
 ```html
 <a href="{{url}}" target="_blank">Read more</a>
 ```
@@ -150,7 +150,8 @@ Within the template the following variables are available:
 - date (date of the review)
 - datetime (date and time of the review)
 
-- _defaults to:_
+
+_defaults to:_
 ```html
 <article class="trustfeed-entry">
   <h3>{{title}}</h3>
