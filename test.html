@@ -2,20 +2,34 @@
 <head>
   <title>trustfeed</title>
   <link rel="stylesheet" type="text/css" href="trustfeed.css">
+
+  <style>
+    .trustfeed-3 {
+      color: #f06;
+    }
+  </style>
 </head>
 <body>
 
-  <div class="trustfeed">
+  <div class="trustfeed-1"></div>
 
-  </div>
+  <div class="trustfeed-3"></div>
 
   <script src="trustfeed.js"></script>
 
   <script>
     Trustfeed.load({
       clientId: 4479116
-    , limit: 10
+    , limit: 3
     , offset: 0
+    , class: 'trustfeed-1' 
+    })
+
+    Trustfeed.load({
+      clientId: 4479116
+    , limit: 3
+    , offset: 1
+    , class: 'trustfeed-3' 
     })
   </script>
 </body>
