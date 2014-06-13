@@ -46,7 +46,7 @@ Trustfeed.load({
 })
 ```
 
-_defaults to: `'trustfeed'`_
+- _defaults to: `'trustfeed'`_
 
 ### limit
 The maximum amount of reviews to be showed:
@@ -58,8 +58,8 @@ Trustfeed.load({
 })
 ```
 
-_defaults to: 10_
-_absolute maximum: `10`_
+- _defaults to: 10_
+- _absolute maximum: `10`_
 
 
 ### maxCharacters
@@ -72,7 +72,7 @@ Trustfeed.load({
 })
 ```
 
-_defaults to: `145`_
+- _defaults to: `145`_
 
 ### offset
 The position to start showing reviews:
@@ -85,8 +85,8 @@ Trustfeed.load({
 ```
 The above example will show from the third to the tenth review.
 
-_defaults to: `0`_
-_absolute maximum: `9` (will show 1 comment)_
+- _defaults to: `0`_
+- _absolute maximum: `9` (will show 1 comment)_
 
 ### readMore
 Template for the read more link:
@@ -98,7 +98,7 @@ Trustfeed.load({
 })
 ```
 
-_defaults to:_
+- _defaults to:_
 ```html
 <a href="{{url}}" target="_blank">Read more</a>
 ```
@@ -113,7 +113,7 @@ Trustfeed.load({
 })
 ```
 
-_defaults to: `true`_
+- _defaults to: `true`_
 
 ### starSize
 The size of the stars:
@@ -125,8 +125,8 @@ Trustfeed.load({
 })
 ```
 
-_defaults to: `'medium'`_
-_available options: `'small'`, `'medium'`, `'large'`_
+- _defaults to: `'medium'`_
+- _available options: `'small'`, `'medium'`, `'large'`_
 
 ### template
 The template for every review:
@@ -150,7 +150,7 @@ Within the template the following variables are available:
 - date (date of the review)
 - datetime (date and time of the review)
 
-_defaults to:_
+- _defaults to:_
 ```html
 <article class="trustfeed-entry">
   <h3>{{title}}</h3>
