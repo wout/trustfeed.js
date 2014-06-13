@@ -46,7 +46,7 @@ Trustfeed.load({
 })
 ```
 
-_defaults to: 'trustfeed'_
+_defaults to: `'trustfeed'`_
 
 ### limit
 The maximum amount of reviews to be showed:
@@ -59,7 +59,7 @@ Trustfeed.load({
 ```
 
 _defaults to: 10_
-_absolute maximum: 10_
+_absolute maximum: `10`_
 
 
 ### maxCharacters
@@ -72,7 +72,21 @@ Trustfeed.load({
 })
 ```
 
-_defaults to: 145_
+_defaults to: `145`_
+
+### offset
+The position to start showing reviews:
+
+```javascript
+Trustfeed.load({
+  clientId: 1234567
+, offset: 3
+})
+```
+The above example will show from the third to the tenth review.
+
+_defaults to: `0`_
+_absolute maximum: `9` (will show 1 comment)_
 
 ### readMore
 Template for the read more link:
@@ -89,6 +103,18 @@ _defaults to:_
 <a href="{{url}}" target="_blank">Read more</a>
 ```
 
+### reverse
+Reverses the order of reviews:
+
+```javascript
+Trustfeed.load({
+  clientId: 1234567
+, reverse: false
+})
+```
+
+_defaults to: `true`_
+
 ### starSize
 The size of the stars:
 
@@ -99,8 +125,8 @@ Trustfeed.load({
 })
 ```
 
-_defaults to: 'medium'_
-_available options: 'small', 'medium', 'large'_
+_defaults to: `'medium'`_
+_available options: `'small'`, `'medium'`, `'large'`_
 
 ### template
 The template for every review:

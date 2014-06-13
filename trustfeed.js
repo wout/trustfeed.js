@@ -1,4 +1,4 @@
-// trustfeed.js 0.1.0 - Copyright (c) 2014 Wout Fierens - Licensed under the MIT license
+// trustfeed.js 0.1.1 - Copyright (c) 2014 Wout Fierens - Licensed under the MIT license
 
 var Trustfeed = this.Trustfeed = {
   // Settings
@@ -13,6 +13,8 @@ var Trustfeed = this.Trustfeed = {
     , starSize:      'medium'
     , maxCharacters: 145
     , limit:         10
+    , offset:        0
+    , reverse:       true
     }
 
     // Merge custom settings
@@ -38,8 +40,9 @@ var Trustfeed = this.Trustfeed = {
 
     // Store data
     this.data = data
-    this.data.Reviews.reverse()
-    this.data.Reviews = this.data.Reviews.slice(0, this.settings.limit)
+    if (this.settings.reverse === true)
+      this.data.Reviews.reverse()
+    this.data.Reviews = this.data.Reviews.slice(this.settings.offset, this.settings.limit + this.settings.offset)
   
     // Get all elements
     elements = document.getElementsByClassName(this.settings.class)
