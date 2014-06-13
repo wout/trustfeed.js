@@ -5,7 +5,13 @@ A library-agnostic micro API wrapper for Trustpilot.
 Trustfeed.js is licensed under the terms of the MIT License.
 
 ## Usage
-Include this plugin into your document:
+Include the css file into the head of your document:
+
+```html
+<link rel="stylesheet" type="text/css" href="trustfeed.css">
+```
+
+Include the javascript file right before the `</body>` tag:
 
 ```html
 <script src="trustfeed.js"></script>
